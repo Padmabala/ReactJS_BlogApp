@@ -31,7 +31,7 @@ class Home extends Component{
         const {posts}=this.state;
         return(
             
-           // <ErrorBoundaryV1>  --no longer required since we have ErrorBoundaryV2
+           // <ErrorBoundaryV1> //initi --no longer required since we have ErrorBoundaryV2
             <div>
                 {
                     posts.length

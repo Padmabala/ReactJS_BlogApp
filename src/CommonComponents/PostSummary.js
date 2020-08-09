@@ -18,7 +18,7 @@ const PostSummary=({
     },5000);
     //const post=this.props;
     
-    //undefined.func();
+    //undefined.func();//this will not be caught unless we have a HOC
     try{
         //undefined.func(); --- this will be caught by the try catch 
     return(

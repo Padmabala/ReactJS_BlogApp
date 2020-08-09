@@ -46,7 +46,7 @@ class App extends Component {
           <Collapse isOpen={isNavbarOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink className="nav-link" activeClassName="active" to={routes.home}>Home</NavLink>
+                {<NavLink className="nav-link" activeClassName="active" to={routes.home}>Home</NavLink>}
               </NavItem>
               <NavItem>
                 <NavLink className="nav-link" activeClassName="active" to={routes.authors}>Authors</NavLink>
@@ -61,6 +61,7 @@ class App extends Component {
         
       <Route path={routes.home} component={Home}/>
       <Route path={routes.authors} component={Authors}/>
+      <Route path={routes.author} component={AuthorDetail}/>
       <Route path={routes.post} component={Post}/>
       <Route path={routes.newPost} component={NewPost}/>
 
